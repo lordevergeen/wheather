@@ -56,8 +56,8 @@
     border-radius: 20px;
     box-shadow: var(--shadow);
     padding: 42px 0 42px 32px;
-    overflow: hidden;
     position: relative;
+    overflow: hidden;
 }
 
 .right.light{
@@ -65,13 +65,12 @@
 }
 
 .right::before{
-    content: url('../../assets/Icons/Cloud.png');
+    content: url("../../assets/Icons/Cloud.png");
     position: absolute;
     width: 60%;
     height: 66%;
     right: -30px;
     top: 0;
-
 }
 
 .list{
@@ -81,7 +80,7 @@
 }
 
 .item{
-display: flex;
+    display: flex;
     align-items: center;
     column-gap: 20px;
 }
@@ -98,8 +97,8 @@ display: flex;
 }
 
 .category{
-font-weight: normal;
-    font-size:14px;
+    font-weight: normal;
+    font-size: 14px;
     line-height: 17px;
     color: var(--grey-text);
     width: 91px;

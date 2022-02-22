@@ -37,4 +37,5 @@ const MainFooter = ({fiveDays, date, setDate, isLight}) => {
         </>
     );
 };
+
 export default MainFooter;

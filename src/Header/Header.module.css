@@ -9,7 +9,7 @@
 }
 
 .title{
- color: var(--blue);
+    color: var(--blue);
     font-weight: bold;
     font-size: 25px;
     line-height: 30px;
@@ -38,6 +38,7 @@
     color: white;
     font-weight: 500;
 }
+
 .input.light{
     background: var(--blue-block);
     color: black;
@@ -50,9 +51,10 @@
     background: var(--grey-block);
     cursor: pointer;
     border-radius: 10px;
-    border:none;
+    border: none;
     color: white;
 }
+
 .button.light{
     background: var(--blue-block);
     color: black;
@@ -61,7 +63,6 @@
 .theme{
     cursor: pointer;
 }
-
 .theme.light svg path{
     fill: #000;
 }
