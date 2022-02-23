@@ -45,5 +45,22 @@
     --blue-block: rgba(71,147,255, 0.2);
 }
 
+@media (max-width: 700px) {
+    .container{
+        margin: 0;
+        padding:0 10px;
+
+    }
+}
+
+@media (max-width: 500px) {
+    .container{
+        margin: 0;
+        padding:0 10px;
+
+    }
+}
+
+
 
 

@@ -30,7 +30,7 @@ const MainHeader = ({current, isLight}) => {
                         <p className={styles.deg}>{(current.main.temp - 273.15).toFixed()}°</p>
                         <p className={styles.today}>Today</p>
                     </div>
-                    <img src={`http://openweathermap.org/img/wn/${current.weather[0].icon}@4x.png`} alt="Icon Weather"/>
+                    <img className={styles.icon} src={`http://openweathermap.org/img/wn/${current.weather[0].icon}@4x.png`} alt="Icon Weather"/>
                 </div>
                 <p className={styles.infotext}>Time : {cityTime()}</p>
                 <p className={styles.infotext}>City : {current.name}</p>

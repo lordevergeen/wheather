@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from '../assets/Icons/Logo.svg';
-import Drop from '../assets/Icons/drop.svg';
+import Drop from '../assets/Icons/Drop.svg';
 import styles from './Header.module.css'
 import Form from "../Form/Form";
 

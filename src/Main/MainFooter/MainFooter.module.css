@@ -89,3 +89,66 @@
     font-size: 13px;
     color: var(--grey-text);
 }
+
+@media (max-width: 1200px) {
+    .row{
+        display: flex;
+        padding: 20px;
+        gap: 10px;
+        flex-wrap: wrap;
+
+    }
+    .card{
+        padding: 11px 0 13px 11px;
+        width: 90px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .row{
+        display: flex;
+        padding: 20px;
+        gap: 10px;
+        flex-wrap: wrap;
+
+    }
+    .card{
+        padding: 11px 0 13px 11px;
+        width: 70px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .title{
+        font-size: 25px;
+        margin: 30px 0 15px;
+    }
+
+    .listDate{
+        display: flex;
+        column-gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .itemDate{
+        height: 40px;
+        width: 55px;
+        padding: 10px 15px;
+        font-size: 8px;
+    }
+
+    .row{
+        display: flex;
+        padding: 20px;
+        gap: 10px;
+        flex-wrap: wrap;
+
+    }
+    .card{
+        padding: 11px 0 13px 11px;
+        width: 70px;
+    }
+}
+
